@@ -15,7 +15,7 @@ bot.onText(/\/start/, async(msg)=>{
     {
         reply_markup:{ 
            keyboard:[
-            [{text:"Заповнити форму ",web_app:{url:`${webAppUrl}/form`}}]
+            [{text:"Заповнити форму ",web_app:{url:`https://super-marzipan-fc54b9.netlify.app/form`}}]
            ]
         } 
     })
